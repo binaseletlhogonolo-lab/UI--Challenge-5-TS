@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Freshly roasted coffee, delicious milkshakes and stories from our coffee shop.">
+  <title>Crafty Solutions — Coffee & Shakes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Crafty Solutions home">
+        <span class="brand-steam" aria-hidden="true">♨</span>
+        <span>Crafty <strong>solutions</strong></span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#categories">Menu</a><a href="#blogs">Blog</a>
+        <a href="#shakes">Media</a><a href="#footer">Contact</a>
+        <button class="search-button" aria-label="Search">⌕</button>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p>FRESHLY ROASTED</p>
+        <h1>COFFEE</h1>
+        <a class="pill-button" href="#categories">Shop now</a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Fresh coffee beans and a cup of black coffee"></div>
+    </section>
+
+    <section class="section categories" id="categories">
+      <div class="section-heading">
+        <h2>TOP CATEGORIES</h2>
+        <p>Explore The Recent Most Bought Drinks This Week</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card category-mocha">
+          <div><h3>Coffee Mocha</h3><a href="#shakes">View More</a></div>
+        </article>
+        <article class="category-card category-americano">
+          <div><h3>Expresso Americano</h3><a href="#shakes">View More</a></div>
+        </article>
+        <article class="category-card category-cappuccino">
+          <div><h3>Cappuccino</h3><a href="#shakes">View More</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shakes" id="shakes">
+      <div class="section-heading">
+        <h2>TOP MILK SHAKES</h2>
+        <p>Explore The Recent Most Bought Shakes This Week</p>
+      </div>
+      <div class="shake-viewport">
+        <div class="shake-track">
+          <article class="shake-card">
+            <span class="likes">♥ 30 likes</span><div class="shake-art shake-green" aria-label="Green mocha milkshake" role="img"></div>
+            <h3>Mocha Shake</h3><div class="product-bottom"><span>$20.00</span><button class="buy-button">BUY NOW</button></div>
+          </article>
+          <article class="shake-card">
+            <span class="likes">♥ 30 likes</span><div class="shake-art shake-purple" aria-label="Purple lavender milkshake" role="img"></div>
+            <h3>Lavender Shake</h3><div class="product-bottom"><span>$20.00</span><button class="buy-button">BUY NOW</button></div>
+          </article>
+          <article class="shake-card">
+            <span class="likes">♥ 30 likes</span><div class="shake-art shake-brown" aria-label="Brown caramel milkshake" role="img"></div>
+            <h3>Caramel Shake</h3><div class="product-bottom"><span>$20.00</span><button class="buy-button">BUY NOW</button></div>
+          </article>
+          <article class="shake-card">
+            <span class="likes">♥ 24 likes</span><div class="shake-art shake-pink" aria-label="Pink strawberry milkshake" role="img"></div>
+            <h3>Strawberry Shake</h3><div class="product-bottom"><span>$20.00</span><button class="buy-button">BUY NOW</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section blogs" id="blogs">
+      <div class="section-heading">
+        <h2>LATEST BLOGS</h2>
+        <p>Explore The Recent Most Bought Shakes This Week</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=700&q=85" alt="A freshly prepared cup of coffee">
+          <div class="blog-copy"><h3>Coffee Connoisseur</h3><p>From rich aroma to the perfect crema, discover what makes every cup memorable. Explore the little details that turn your daily coffee into a ritual.</p><a href="#footer">READ MORE</a></div>
+        </article>
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=85" alt="Friends enjoying coffee together">
+          <div class="blog-copy"><h3>Coffee Connoisseur</h3><p>Good coffee brings people together. Take a look behind the counter and discover the stories, flavours and people that make our café special.</p><a href="#footer">READ MORE</a></div>
+        </article>
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=700&q=85" alt="Sunlit café interior">
+          <div class="blog-copy"><h3>Coffee Connoisseur</h3><p>Find your favourite corner, settle in and slow down. We share a few of our favourite ways to make a coffee break feel like a little escape.</p><a href="#footer">READ MORE</a></div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer" id="footer">
+      <div class="footer-columns">
+        <div><h3>Products</h3><a href="#categories">Shoes</a></div>
+        <div><h3>Category</h3><a href="#categories">Men</a><a href="#categories">New In</a><a href="#categories">Weekly Pick</a></div>
+        <div><h3>Company Info</h3><a href="#footer">About us</a><a href="#footer">Contact us</a><a href="#footer">Payment Options</a><a href="#footer">Track Order</a><a href="#footer">Support</a><a href="#footer">Vouchers</a><a href="#footer">Size Charts</a></div>
+        <div><h3>Follow us</h3><div class="social-links"><a href="#footer" aria-label="Instagram">◎</a><a href="#footer" aria-label="Facebook">f</a><a href="#footer" aria-label="YouTube">▶</a></div></div>
+      </div>
+      <div class="legal-links"><a href="#footer">Data settings</a><a href="#footer">Cookie settings</a><a href="#footer">Privacy Policy</a><a href="#footer">Terms And Conditions</a><a href="#footer">Imprint</a></div>
+    </footer>
+  </main>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
